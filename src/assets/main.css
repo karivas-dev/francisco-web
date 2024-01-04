@@ -1,35 +1,38 @@
-@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*@font-face {
+    font-family: 'Agrandir';
+    font-weight: 100;
+    font-style: italic;
+    src: url('fonts/Agrandir Thin Italic 100.otf') format('opentype');
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
+@font-face {
+    font-family: 'Agrandir';
+    font-weight: 400;
+    font-style: normal;
+    src: url('fonts/Agrandir Regular 400.otf') format('opentype');
+}*/
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('fonts/Agrandir Variable.ttf');
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+/*@font-face {
+    font-family: 'Agrandir';
+    font-weight: 100 900;
+    font-style: italic;
+    font-display: swap;
+    src: url('fonts/Agrandir.ttf') format('truetype');
+    font-named-instance: "Italic";
+}*/
+
+i, em {
+    @apply italic;
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
-}
