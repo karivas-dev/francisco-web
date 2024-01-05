@@ -6,11 +6,11 @@ import Button from "@/components/Button.vue";
 <template>
   <div class="px-8 h-screen grid grid-cols-6 place-content-center">
     <div class="absolute top-0 left-1/2 -z-10">
-      <img alt="" width="" class="animate-random-circle" src="../assets/img/gradientecirc.svg">
+      <img alt="" width="" class="animate-random-circle" src="../assets/img/homepage/gradientecirc.svg">
     </div>
 
     <div class="col-span-3">
-      <img alt="r logo" class=" mb-10" src="../assets/img/greeting-fran.png"/>
+      <img alt="r logo" class=" mb-10" src="../assets/img/homepage/greeting-fran.png"/>
       <p class="ml-28 mb-6">
         ¡Hey!, agradezco que te detienes a conocerme.
       </p>
@@ -22,8 +22,8 @@ import Button from "@/components/Button.vue";
     </div>
 
     <div class="col-span-2 relative">
-      <img alt="r logo" class="w-full px-28 py-28" src="../assets/img/fran-foto.png"/>
-      <img alt="About me" class="absolute w-56 right-0 top-0" src="../assets/img/about-me.svg"/>
+      <img alt="r logo" class="w-full px-28 py-28" src="../assets/img/homepage/fran-foto.png"/>
+      <img alt="About me" class="absolute w-56 right-0 top-0" src="../assets/img/homepage/about-me.svg"/>
     </div>
 
     <div class="col-span-3 mt-10">

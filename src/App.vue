@@ -4,6 +4,7 @@ import TheWelcome from './components/TheWelcome.vue'
 import Navbar from "@/components/Navbar.vue";
 import AboutMe from "@/components/AboutMe.vue";
 import Home from "@/components/Home.vue";
+import Projects from "@/components/Projects.vue";
 </script>
 
 <template>
@@ -12,9 +13,10 @@ import Home from "@/components/Home.vue";
   </header>
 
   <main class="max-w-screen-2xl mx-auto font-scp leading-tight">
-    <Home/>
-    <AboutMe/>
-    <img alt="r logo" class="w-full my-10" src="../src/assets/img/banner-home.png"/>
+    <router-view>
+
+
+    </router-view>
   </main>
 
   <!--  <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />

@@ -11,7 +11,7 @@ import Button from "@/components/Button.vue";
     </video>-->
 
     <div class="absolute bottom-0 w-4/6 text-5xl font-agrandir mb-20
-    font-extrabold font-extraexpanded text-center space-y-8 text-[#323231] z-50">
+    font-extrabold font-extraexpanded text-center space-y-8 text-[#323231] z-10">
       <p>La inspiración está en la oportunidad de darnos variedad para crear y aprender</p>
       <Button>Contáctame</Button>
     </div>
