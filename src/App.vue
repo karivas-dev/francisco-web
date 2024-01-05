@@ -11,9 +11,10 @@ import Home from "@/components/Home.vue";
     <Navbar/>
   </header>
 
-  <main class="max-w-7xl mx-auto font-scp leading-tight">
+  <main class="max-w-screen-2xl mx-auto font-scp leading-tight">
     <Home/>
     <AboutMe/>
+    <img alt="r logo" class="w-full my-10" src="../src/assets/img/banner-home.png"/>
   </main>
 
   <!--  <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
