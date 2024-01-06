@@ -30,11 +30,23 @@
             36 Days of type
           </p>
         </router-link>
-        <router-link to="">
+        <router-link to="/projects/Timi-en-la-oscuridad">
           Timi en la oscuridad
         </router-link>
       </div>
     </div>
+    <router-link to="/projects/Ancestral">
+      Ancestral
+    </router-link>
+    <router-link to="/projects/Web-gpb">
+      Web Gpb
+    </router-link>
+    <router-link to="/projects/Preparado">
+      Preparado
+    </router-link>
+    <router-link to="/projects/Mestizo">
+      Mestizo
+    </router-link>
   </div>
 </template>
 

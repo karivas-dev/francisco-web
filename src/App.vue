@@ -13,10 +13,7 @@ import Projects from "@/components/Projects.vue";
   </header>
 
   <main class="max-w-screen-2xl mx-auto font-scp leading-tight">
-    <router-view>
-
-
-    </router-view>
+    <router-view></router-view>
   </main>
 
   <!--  <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
