@@ -44,8 +44,14 @@
     <router-link to="/proyectos/Preparados">
       Preparado
     </router-link>
+    <router-link to="/proyectos/Al-tazon">
+      Al Tazón
+    </router-link>
     <router-link to="/proyectos/Mestizo">
       Mestizo
+    </router-link>
+    <router-link to="/proyectos/">
+      Go eat
     </router-link>
   </div>
 </template>
