@@ -67,5 +67,3 @@ import Title from "@/components/Title.vue"
         <img alt="Letra U" class="col-span-1" src="@/assets/img/daysoftype/A4-8.png" />
     </div>
 </template>
-
-<style scoped></style>

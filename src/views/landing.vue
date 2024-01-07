@@ -10,7 +10,3 @@ import Projects from "@/components/Projects.vue";
   <img alt="r logo" class="w-full my-10" src="@/assets/img/homepage/banner-home.png"/>
   <Projects/>
 </template>
-
-<style scoped>
-
-</style>
