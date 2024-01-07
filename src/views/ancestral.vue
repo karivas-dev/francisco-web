@@ -3,10 +3,10 @@ import OpeningTitle from '@/components/OpeningTitle.vue';
 </script>
 
 <template>
-  <img alt="Banner Ancestral" class="w-full mb-20" src="../assets/img/ancestral/banner-ancestral.png" />
+  <img alt="Banner Ancestral" class="w-full mb-20" src="../assets/img/ancestral/banner-ancestral.png"/>
 
   <OpeningTitle>
-    <img alt="Titulo" width="100%" src="@/assets/img/ancestral/title-ancestral.png" />
+    <img alt="Titulo" src="@/assets/img/ancestral/title-ancestral.png" width="100%"/>
   </OpeningTitle>
 
   <div class="mx-32">
@@ -22,39 +22,40 @@ import OpeningTitle from '@/components/OpeningTitle.vue';
         de un Recetario ancestral, con alimentos nutritivos y de fácil preparación. Para este proyecto se trabajó de
         manera colaborativa, y tuve la oportunidad de ejecutar la dirección fotográfica, así como el food styling de
         dichos platos.</p>
-      <img alt="Foto" class="w-full mb-16" src="../assets/img/ancestral/foto06.png" />
+      <img alt="Foto" class="w-full mb-16" src="../assets/img/ancestral/foto06.png"/>
     </div>
   </div>
 
-  <div class="grid grid-cols-8 gap-2 mx-8">
-    <div class="col-span-3 ">
-      <div class="grid-rows-2 gap-y-2">
-        <img alt="Foto" class="w-full row-span-1" src="../assets/img/ancestral/foto01.png" />
-        <img alt="Foto" class="w-full row-span-1" src="../assets/img/ancestral/foto02.png" />
-      </div>
+  <div class="grid grid-cols-8 gap-2 mx-8 mb-24">
+    <div class="col-span-3 row-start-1">
+      <img alt="Foto" class="w-full h-full" src="../assets/img/ancestral/foto01.png" />
     </div>
-
-    <div class="col-span-5">
-      <img alt="Foto" class="w-full mb-24" src="../assets/img/ancestral/foto03.png" />
+    <div class="col-span-3 row-start-2">
+      <img alt="Foto" class="w-full h-full" src="../assets/img/ancestral/foto02.png" />
+    </div>
+    <div class="col-span-5 row-span-2">
+      <img alt="Foto" class="w-full" src="../assets/img/ancestral/foto03.png" />
     </div>
   </div>
 
   <div class="grid grid-cols-8 mx-8 gap-x-2">
-    <img alt="Foto" width="100%" class="col-span-4 col-start-3" src="@/assets/img/ancestral/subtitulo.png" />
+    <img alt="Foto" class="col-span-4 col-start-3" src="@/assets/img/ancestral/subtitulo.png" width="100%"/>
     <p class="col-start-2 col-span-6 mt-8 mb-12">
-      El registro fotográfico nos llevó a realizar trabajo de campo como parte del proceso. Las recetas son resultado de la
-      investigación y registro desarrollado por el chef Cipactli para FAO El Salvador. Trabajar de manera multidisciplinaria
+      El registro fotográfico nos llevó a realizar trabajo de campo como parte del proceso. Las recetas son resultado de
+      la
+      investigación y registro desarrollado por el chef Cipactli para FAO El Salvador. Trabajar de manera
+      multidisciplinaria
       y colaborativa es un componente del diseño flexible como parte fundamental en este proyecto.
     </p>
 
-    <img alt="Foto" width="100%" class="col-span-2 col-start-2" src="@/assets/img/ancestral/foto05.png" />
-    <img alt="Foto" width="100%" class="col-span-2" src="@/assets/img/ancestral/foto07.png" />
-    <img alt="Foto" width="100%" class="col-span-2" src="@/assets/img/ancestral/foto04.png" />
+    <img alt="Foto" class="col-span-2 col-start-2" src="@/assets/img/ancestral/foto05.png" width="100%"/>
+    <img alt="Foto" class="col-span-2" src="@/assets/img/ancestral/foto07.png" width="100%"/>
+    <img alt="Foto" class="col-span-2" src="@/assets/img/ancestral/foto04.png" width="100%"/>
   </div>
-  
+
   <div class="grid grid-cols-8 mx-8 gap-x-2 mt-3">
-    <img alt="Foto" width="100%" class="col-span-5" src="@/assets/img/ancestral/foto08.png" />
-    <img alt="Foto" width="100%" class="col-span-3" src="@/assets/img/ancestral/foto09.png" />
+    <img alt="Foto" class="col-span-5" src="@/assets/img/ancestral/foto08.png" width="100%"/>
+    <img alt="Foto" class="col-span-3 h-full" src="@/assets/img/ancestral/foto09.png" width="100%"/>
   </div>
 
   <div class="my-12">
