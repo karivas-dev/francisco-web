@@ -10,10 +10,10 @@ import Button from "@/components/Button.vue";
       Your browser does not support the video tag
     </video>-->
 
-    <div class="absolute bottom-0 w-4/6 text-5xl font-agrandir mb-20
-    font-extrabold font-extraexpanded text-center space-y-8 text-[#323231] z-10">
-      <p>La inspiración está en la oportunidad de darnos variedad para crear y aprender</p>
-      <Button>Contáctame</Button>
+    <div class="absolute bottom-0 -translate-x-1/2 left-1/2 w-5/6 lg:w-4/6 font-agrandir mb-20
+    font-extrabold font-extraexpanded text-center space-y-10 text-[#323231] z-10">
+      <p class="text-2xl md:text-5xl">La inspiración está en la oportunidad de darnos variedad para crear y aprender</p>
+      <Button>Mi trabajo</Button>
     </div>
   </div>
 </template>

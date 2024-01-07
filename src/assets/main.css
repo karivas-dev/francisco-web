@@ -4,33 +4,17 @@
 @tailwind components;
 @tailwind utilities;
 
-/*@font-face {
-    font-family: 'Agrandir';
-    font-weight: 100;
-    font-style: italic;
-    src: url('fonts/Agrandir Thin Italic 100.otf') format('opentype');
+:root {
+    --swiper-pagination-color: #fbb91c;
+    --swiper-navigation-color: #fbb91c;
 }
 
-@font-face {
-    font-family: 'Agrandir';
-    font-weight: 400;
-    font-style: normal;
-    src: url('fonts/Agrandir Regular 400.otf') format('opentype');
-}*/
+
 
 @font-face {
     font-family: 'Agrandir';
     src: url('fonts/Agrandir Variable.ttf');
 }
-
-/*@font-face {
-    font-family: 'Agrandir';
-    font-weight: 100 900;
-    font-style: italic;
-    font-display: swap;
-    src: url('fonts/Agrandir.ttf') format('truetype');
-    font-named-instance: "Italic";
-}*/
 
 i, em {
     @apply italic;

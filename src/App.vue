@@ -12,7 +12,7 @@ import Projects from "@/components/Projects.vue";
     <Navbar/>
   </header>
 
-  <main class="max-w-screen-2xl mx-auto font-scp leading-tight">
+  <main class="max-w-[1920] mx-auto font-scp leading-tight">
     <router-view></router-view>
   </main>
 

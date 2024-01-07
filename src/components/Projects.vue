@@ -25,26 +25,26 @@
       </div>
 
       <div class="col-span-1 ">
-        <router-link to="/projects/36daysoftype">
+        <router-link to="/proyectos/36daysoftype">
           <p>
             36 Days of type
           </p>
         </router-link>
-        <router-link to="/projects/Timi-en-la-oscuridad">
+        <router-link to="/proyectos/Timi-en-la-oscuridad">
           Timi en la oscuridad
         </router-link>
       </div>
     </div>
-    <router-link to="/projects/Ancestral">
+    <router-link to="/proyectos/Ancestral">
       Ancestral
     </router-link>
-    <router-link to="/projects/Web-gpb">
+    <router-link to="/proyectos/Web-gpb">
       Web Gpb
     </router-link>
-    <router-link to="/projects/Preparado">
+    <router-link to="/proyectos/Preparado">
       Preparado
     </router-link>
-    <router-link to="/projects/Mestizo">
+    <router-link to="/proyectos/Mestizo">
       Mestizo
     </router-link>
   </div>

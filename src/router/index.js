@@ -6,17 +6,17 @@ import ancestral from "@/views/ancestral.vue";
 
 const routes = [
     { path: '/', name: 'home', component: home},
-    { path: '/projects/36daysoftype', name: '36daysoftype', component: daysoftype },
-    { path: '/projects/Timi-en-la-oscuridad', name: 'timienlaoscuridad', component: timi },
-    { path: '/projects/Al-tazon', name: 'ancestral', component: ancestral },
-    { path: '/projects/Ancestral', name: 'ancestral', component: ancestral },
-    { path: '/projects/Web-gpb', name: 'ancestral', component: ancestral },
-    { path: '/projects/Preparados', name: 'ancestral', component: ancestral },
-    { path: '/projects/Mil-historias', name: 'ancestral', component: ancestral },
-    { path: '/projects/Mestizo', name: 'ancestral', component: ancestral },
-    { path: '/projects/Goeat', name: 'ancestral', component: ancestral },
-    { path: '/projects/11a-Entrega', name: 'ancestral', component: ancestral },
-    { path: '/projects/Tu-lado-b', name: 'ancestral', component: ancestral },
+    { path: '/proyectos/36daysoftype', name: '36daysoftype', component: daysoftype },
+    { path: '/proyectos/Timi-en-la-oscuridad', name: 'timienlaoscuridad', component: timi },
+    { path: '/proyectos/Al-tazon', name: 'al tazon', component: ancestral },
+    { path: '/proyectos/Ancestral', name: 'ancestral', component: ancestral },
+    { path: '/proyectos/Web-gpb', name: 'ancestsral', component: ancestral },
+    { path: '/proyectos/Preparados', name: 'ancedstral', component: ancestral },
+    { path: '/proyectos/Mil-historias', name: 'ancesstral', component: ancestral },
+    { path: '/proyectos/Mestizo', name: 'ancestwral', component: ancestral },
+    { path: '/proyectos/Goeat', name: 'ancedstral', component: ancestral },
+    { path: '/proyectos/11a-Entrega', name: 'anfcestral', component: ancestral },
+    { path: '/proyectos/Tu-lado-b', name: 'ancesvtral', component: ancestral },
 ]
 
 const router = createRouter( {

@@ -1,10 +1,14 @@
 <script setup>
-
+import Title from "@/components/Title.vue"
+import OpeningTitle from "@/components/OpeningTitle.vue"
 </script>
 
 <template>
-  <img alt="Timi banner" class="w-full mb-24" src="../assets/img/timienlaoscuridad/banner-timi.png"/>
-  <img alt="Titulo" class="w-full mb-10" src="../assets/img/timienlaoscuridad/title.png"/>
+  <img alt="Timi banner" width="100%" class="mb-24" src="../assets/img/timienlaoscuridad/banner-timi.png"/>
+  
+  <OpeningTitle>
+    <img alt="Titulo" width="100%" src="@/assets/img/timienlaoscuridad/title.png"/>
+  </OpeningTitle>
 
   <div class="grid grid-cols-2 gap-x-8 my-20 mx-32">
     <p class="col-span-1">
@@ -20,10 +24,10 @@
     </p>
   </div>
 
-  <div class="grid grid-cols-5 content-end">
-    <img alt="Timi feliz" class="w-full col-start-2" src="../assets/img/timienlaoscuridad/felicidad.jpg"/>
-    <img alt="Timi confundido" class="w-full" src="../assets/img/timienlaoscuridad/confusion.jpg"/>
-    <img alt="Timi enojado" class="w-full" src="../assets/img/timienlaoscuridad/enojo.jpg"/>
+  <div class="grid grid-cols-5">
+    <img alt="Timi feliz" class="w-full col-start-2 place-self-end" src="../assets/img/timienlaoscuridad/felicidad.jpg"/>
+    <img alt="Timi confundido" class="w-full place-self-end" src="../assets/img/timienlaoscuridad/confusion.jpg"/>
+    <img alt="Timi enojado" class="w-full place-self-end" src="../assets/img/timienlaoscuridad/enojo.jpg"/>
   </div>
 
   <img alt="Paisaje banner" class="w-full my-20" src="../assets/img/timienlaoscuridad/banner-landscape.png"/>
@@ -39,10 +43,18 @@
     <img alt="Book spread 1" class="col-span-2 w-full mt-20" src="../assets/img/timienlaoscuridad/spread-01.png"/>
     <img alt="Book spread 2" class="col-span-2 w-full mt-20" src="../assets/img/timienlaoscuridad/spread-02.png"/>
 
-    <p class="col-start-2 col-span-2 my-16">Parte de la boletería como ideas iniciales para la búsqueda de los personajes, así como la escena del paisaje
+    <Title>Procesos</Title>
+
+    <p class="col-span-2 ml-20 my-16">Parte de la bocetería como ideas iniciales para la búsqueda de los personajes, así como la escena del paisaje
       dónde vive Timi.</p>
   </div>
 
   <img alt="Procesos Timi" class="w-full mb-10" src="../assets/img/timienlaoscuridad/proceso-timi.png"/>
   <img alt="Timi miedo" class="flex mx-auto w-1/4 my-12" src="../assets/img/timienlaoscuridad/miedo.png"/>
+
+  <div class="my-12">
+    <p class="text-center font-bold">Créditos<span class="text-[#fbb91c]">//</span></p>
+    <p class="text-center">Cuento_Guadalupe Zaghini</p>
+    <p class="text-center">Ilustraciones y editorial_Francisco Rivas</p>
+  </div>
 </template>

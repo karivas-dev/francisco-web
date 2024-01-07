@@ -4,7 +4,7 @@
 
 <template>
   <nav class="fixed w-full bg-[#333] z-20 py-4 px-8">
-    <div class="max-w-screen-2xl mx-auto flex justify-between items-center">
+    <div class="max-w-[1920] mx-auto flex justify-between items-center">
 
       <img alt="r logo" class="" height="30" src="../assets/img/r.svg" width="30"/>
 
