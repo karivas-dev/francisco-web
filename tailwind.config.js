@@ -11,6 +11,9 @@ export default {
                 agrandir: ['Agrandir', 'sans-serif'],
 
             },
+            extend: {
+                'max-w-1920': '1920px',
+            },
             keyframes: {
                 wave: {
                     '0%': {transform: 'rotate(0.0deg)'},

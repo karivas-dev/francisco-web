@@ -7,7 +7,7 @@ import Navbar from "@/components/Navbar.vue";
     <Navbar/>
   </header>
 
-  <main class="max-w-[1920] mx-auto font-scp leading-tight">
+  <main class="max-w-1920 mx-auto font-scp leading-tight">
     <router-view></router-view>
   </main>
 </template>

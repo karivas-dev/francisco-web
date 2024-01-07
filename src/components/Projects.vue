@@ -41,7 +41,7 @@
     <router-link to="/proyectos/Web-gpb">
       Web Gpb
     </router-link>
-    <router-link to="/proyectos/Preparado">
+    <router-link to="/proyectos/Preparados">
       Preparado
     </router-link>
     <router-link to="/proyectos/Mestizo">
