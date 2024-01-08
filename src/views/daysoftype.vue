@@ -1,11 +1,12 @@
 <script setup>
 import Title from "@/components/Title.vue"
+import Footer from "@/components/footer.vue";
 </script>
 
 <template>
-    <div class="h-[calc(100vh-68px)] bg-[#1b191b] flex items-center">
+    <div class="h-[calc(100vh-68px)] bg-[#191919] flex items-center">
         <video autoplay loop muted width="100%">
-            <source src="@/assets/banner-daysoftype.mp4" type="video/mp4" />
+            <source src="../assets/videos/banner-daysoftype.mp4" type="video/mp4" />
             Parece ser que hay problemas con el navegador
         </video>
     </div>
@@ -80,4 +81,5 @@ import Title from "@/components/Title.vue"
             <p>Diseño gráfico_Francisco Rivas</p>
         </div>
     </div>
+  <Footer/>
 </template>

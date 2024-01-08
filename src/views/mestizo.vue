@@ -5,7 +5,7 @@ import OpeningTitle from '@/components/OpeningTitle.vue';
 <template>
     <div class="max-w-1920 mx-auto">
         <video autoplay loop muted width="100%">
-            <source src="@/assets/mestizo.mp4" type="video/mp4" />
+            <source src="@/assets/videos/mestizo.mp4" type="video/mp4" />
             Parece ser que hay problemas con el navegador
         </video>
     </div>
@@ -43,7 +43,7 @@ import OpeningTitle from '@/components/OpeningTitle.vue';
 
         <div class=" col-span-6">
             <video autoplay loop muted width="100%">
-                <source src="@/assets/mestizo.mp4" type="video/mp4" />
+                <source src="@/assets/videos/mestizo.mp4" type="video/mp4" />
                 Parece ser que hay problemas con el navegador
             </video>
         </div>

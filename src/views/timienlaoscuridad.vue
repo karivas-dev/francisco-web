@@ -1,6 +1,7 @@
 <script setup>
 import Title from "@/components/Title.vue"
 import OpeningTitle from "@/components/OpeningTitle.vue"
+import Footer from "@/components/footer.vue";
 </script>
 
 <template>
@@ -71,4 +72,5 @@ import OpeningTitle from "@/components/OpeningTitle.vue"
     <p class="text-center">Cuento_Guadalupe Zaghini</p>
     <p class="text-center">Ilustraciones y editorial_Francisco Rivas</p>
   </div>
+  <Footer/>
 </template>

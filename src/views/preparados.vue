@@ -1,12 +1,13 @@
 <script setup>
 import OpeningTitle from "@/components/OpeningTitle.vue";
+import Footer from "@/components/Footer.vue";
 </script>
 
 <template>
   <div class="max-w-1920 mx-auto pt-20">
     <div class="grid grid-cols-2 mx-20">
       <video autoplay loop muted width="100%" controls class="my-auto">
-        <source src="@/assets/prep-video.mp4" type="video/mp4" />
+        <source src="../assets/videos/prep-video.mp4" type="video/mp4" />
         Parece ser que hay problemas con el navegador
       </video>
       <img class="h-full mx-auto" src="@/assets/img/preparados/prep.png" />
@@ -59,6 +60,5 @@ import OpeningTitle from "@/components/OpeningTitle.vue";
     </p>
     <p>GPB-Plan Internacional</p>
   </div>
+  <Footer/>
 </template>
-
-<style scoped></style>
