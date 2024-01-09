@@ -41,7 +41,7 @@ jobs:
       - name: Downloads artifact
         uses: actions/download-artifact@v3
         with:
-          name: mestizoBuild-files
+          name: franBuild-files
           path: ./dist
 
       - name: Deploy to Github Pages
