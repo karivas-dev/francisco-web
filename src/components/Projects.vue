@@ -77,7 +77,7 @@
         <router-link class="block" to="/proyectos/Goeat">
           Go eat
         </router-link>
-        <router-link class="block" to="/proyectos/11va-entrega">
+        <router-link class="block" to="/proyectos/11a-entrega">
           11va entrega
         </router-link>
         <router-link class="block" to="/proyectos/Tu-lado-b">

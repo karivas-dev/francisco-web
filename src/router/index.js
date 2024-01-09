@@ -9,7 +9,7 @@ import mestizo from "@/views/mestizo.vue";
 import goeat from "@/views/goeat.vue";
 import webgpb from "@/views/webgpb.vue";
 import tuladob from "@/views/tuladob.vue";
-import entrega from "@/views/11vaentrega.vue";
+import entrega from "@/views/entrega.vue";
 
 const routes = [
     { path: '/', name: 'home', component: home},
@@ -22,7 +22,7 @@ const routes = [
     { path: '/proyectos/Mil-historias', name: 'ancesstral', component: ancestral },
     { path: '/proyectos/Mestizo', name: 'Mestizo', component: mestizo },
     { path: '/proyectos/Goeat', name: 'Go eat', component: goeat },
-    { path: '/proyectos/11a-Entrega', name: 'anfcestral', component: ancestral },
+    { path: '/proyectos/11a-Entrega', name: '11va Entrega', component: entrega },
     { path: '/proyectos/Tu-lado-b', name: 'Tu Lado B', component: tuladob },
 ]
 
