@@ -1,5 +1,5 @@
 <script setup>
-import Footer from "@/components/footer.vue";
+import Footer from "@/components/Footer.vue";
 import OpeningTitle from "@/components/OpeningTitle.vue";
 import Title from "@/components/Title.vue";
 </script>
