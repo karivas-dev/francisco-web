@@ -11,7 +11,6 @@ import Footer from "@/components/footer.vue";
         </video>
     </div>
 
-
     <div class="bg-[#1a1a1a] pt-5 mb-20">
         <div class="max-w-1920 mx-auto">
             <div class="grid grid-cols-2 gap-x-20 mx-20 mb-28">

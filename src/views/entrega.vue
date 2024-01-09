@@ -1,5 +1,4 @@
 <script setup>
-
 import OpeningTitle from "@/components/OpeningTitle.vue";
 import Footer from "@/components/footer.vue";
 </script>
@@ -30,7 +29,8 @@ import Footer from "@/components/footer.vue";
       propuesta se trabajó el tagline, el cúal representa la acción del evento, que es la entrega de regalías económicas
       a los artistas asociados.
     </p>
-    <img alt="Logo" class="col-span-4 col-start-3 row-start-3 my-20" src="../assets/img/11va/logo.png" width="100%"/>
+
+    <img alt="Logo" class="col-span-4 col-start-3 row-start-3 mt-20" src="../assets/img/11va/logo.png" width="100%"/>
 
     <div class="col-span-6 col-start-2">
       <video autoplay class="my-20" controls loop muted width="100%">
@@ -43,7 +43,8 @@ import Footer from "@/components/footer.vue";
       gráfica para anunciar el evento, diseño de
       invitaciones digitales para los asistentes, así como la animación de pantallas que serían incluidas en dicho
       evento</p>
-    <img alt="Invitación 11va Entrega" class="col-start-2 row-start-6 col-span-3 place-self-end" src="../assets/img/11va/invitacion.png"
+    <img alt="Invitación 11va Entrega" class="col-start-2 row-start-6 col-span-3 place-self-end"
+         src="../assets/img/11va/invitacion.png"
          width="100%"/>
     <img alt="Mockup en celular" class="col-end-8 col-span-2 row-start-5 row-span-2"
          src="@/assets/img/11va/phone-mockup.png">
