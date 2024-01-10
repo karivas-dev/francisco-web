@@ -3,7 +3,7 @@ name: Build and deploy webpage
 on:
   push:
     branches:
-      - deployment
+      - main
 
 jobs:
   build:
