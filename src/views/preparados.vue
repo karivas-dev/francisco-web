@@ -30,9 +30,9 @@ import Footer from "@/components/Footer.vue";
         sociales y otros aplicativos.
       </p>
 
-      <div class="flex">
-        <img class="w-1/2" src="@/assets/img/preparados/condi.png" />
-        <img class="w-1/2" src="@/assets/img/preparados/prep-alone.png" />
+      <div class="flex mx-auto">
+        <img class="w-1/3" src="@/assets/img/preparados/condi.png" />
+        <img class="w-1/3" src="@/assets/img/preparados/prep-alone.png" />
       </div>
     </div>
 

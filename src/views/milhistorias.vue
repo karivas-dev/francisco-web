@@ -55,7 +55,7 @@ import Title from "@/components/Title.vue";
 
   <div class="bg-white py-16">
     <Title>Proceso</Title>
-    <img alt="Proceso" class="max-w-1920 mx-auto mt-8" src="@/assets/img/milhistorias/process.png">
+    <img alt="Proceso" class="max-w-1920 w-full mx-auto mt-8" src="@/assets/img/milhistorias/process.png">
   </div>
 
   <div class="py-12 text-center">

@@ -24,12 +24,15 @@ const routes = [
     { path: '/proyectos/Mestizo', name: 'Mestizo', component: mestizo },
     { path: '/proyectos/Goeat', name: 'Go eat', component: goeat },
     { path: '/proyectos/11a-Entrega', name: '11va Entrega', component: entrega },
-    { path: '/proyectos/Tu-lado-b', name: 'Tu Lado B', component: tuladob },
+    { path: '/proyectos/Tu-lado-b', name: 'Tu lado B', component: tuladob },
 ]
 
 const router = createRouter( {
     history: createWebHistory(),
-    routes: routes
+    routes: routes,
+    scrollBehavior(to, from,savedPosition) {
+        return savedPosition ?? { top: 0 };
+    }
 });
 
 export default router
