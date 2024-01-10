@@ -60,5 +60,6 @@ import Footer from "@/components/Footer.vue";
     </p>
     <p>GPB-Plan Internacional</p>
   </div>
+
   <Footer/>
 </template>

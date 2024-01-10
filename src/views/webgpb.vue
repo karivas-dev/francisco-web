@@ -1,7 +1,7 @@
 <script setup>
 
 import Title from "@/components/Title.vue";
-import Footer from "@/components/footer.vue";
+import Footer from "@/components/Footer.vue";
 </script>
 
 <template>

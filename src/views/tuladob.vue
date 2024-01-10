@@ -1,6 +1,7 @@
 <script setup>
 import OpeningTitle from "@/components/OpeningTitle.vue";
 import Title from "@/components/Title.vue";
+import Footer from "@/components/Footer.vue";
 </script>
 
 <template>
@@ -83,4 +84,5 @@ import Title from "@/components/Title.vue";
       <p>GPB</p>
     </div>
   </div>
+  <Footer/>
 </template>
