@@ -18,7 +18,7 @@ const routes = [
     { path: '/proyectos/Timi-en-la-oscuridad', name: 'Timi en la Oscuridad', component: timi },
     { path: '/proyectos/Al-tazon', name: 'Al tazón', component: altazon },
     { path: '/proyectos/Ancestral', name: 'Ancestral', component: ancestral },
-    { path: '/proyectos/Web-gpb', name: 'Web Grupo Plan B', component: webgpb },
+    { path: '/proyectos/Web-gpb', name: 'Web GPB', component: webgpb },
     { path: '/proyectos/Preparados', name: 'Preparados', component: preparados },
     { path: '/proyectos/Mil-historias', name: '1 Escuela mil historias', component: milhistorias },
     { path: '/proyectos/Mestizo', name: 'Mestizo', component: mestizo },
