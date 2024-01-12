@@ -1,5 +1,6 @@
 import {createRouter, createWebHistory} from "vue-router";
 import home from "@/views/landing.vue";
+import counter from "@/views/counter.vue";
 import daysoftype from "@/views/daysoftype.vue";
 import timi from "@/views/timienlaoscuridad.vue";
 import ancestral from "@/views/ancestral.vue";
@@ -11,9 +12,12 @@ import webgpb from "@/views/webgpb.vue";
 import tuladob from "@/views/tuladob.vue";
 import entrega from "@/views/entrega.vue";
 import milhistorias from "@/views/milhistorias.vue";
+import {DateTime} from "luxon";
+import {inject} from "vue";
 
 const routes = [
     { path: '/', name: 'home', component: home},
+    { path: '/contador', name: 'counter', component: counter},
     { path: '/proyectos/36daysoftype', name: '36 Days of Type', component: daysoftype },
     { path: '/proyectos/Timi-en-la-oscuridad', name: 'Timi en la Oscuridad', component: timi },
     { path: '/proyectos/Al-tazon', name: 'Al tazón', component: altazon },
@@ -32,6 +36,17 @@ const router = createRouter( {
     routes: routes,
     scrollBehavior(to, from,savedPosition) {
         return savedPosition ?? { top: 0 };
+    },
+});
+
+router.beforeResolve(async to => {
+    const currentTime = DateTime.now().setZone('America/El_Salvador');
+    const presentationTime = DateTime.fromISO(inject('presentationTime'), {zone: 'America/El_Salvador'});
+
+    if (currentTime.toMillis() < presentationTime.toMillis() && to.name !== 'counter') {
+        return { name: 'counter' };
+    } else if (currentTime.toMillis() > presentationTime.toMillis() && to.name === 'counter') {
+        return { name: 'home' };
     }
 });
 

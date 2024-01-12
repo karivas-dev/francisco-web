@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar.vue";
 </script>
 
 <template>
-  <header>
+  <header class="pb-[68px]">
     <Navbar/>
   </header>
 

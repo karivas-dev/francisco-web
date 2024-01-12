@@ -11,5 +11,6 @@ register();
 
 createApp(App)
     .use(router)
+    .provide('presentationTime', '2024-01-12T15:30:00')
     .mount('#app')
 
