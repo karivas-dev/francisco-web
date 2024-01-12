@@ -6,7 +6,7 @@ import Title from "@/components/Title.vue";
 
 <template>
 
-  <video autoplay loop muted width="100%">
+  <video autoplay loop muted width="100%" class="pt-[67px]">
     <source src="../assets/videos/banner-milhistorias.mp4" type="video/mp4"/>
     Parece ser que hay problemas con el navegador
   </video>
@@ -22,7 +22,7 @@ import Title from "@/components/Title.vue";
   </OpeningTitle>
 
   <div class="grid grid-cols-8 max-w-1920 mx-auto gap-4">
-    <p class="col-start-2 col-span-3">
+    <p class="col-start-2 md:col-start-2 col-span-6 my-auto md:col-span-3">
       1 Escuela mil historias es un proyecto ejecutado en el departamento de Morazán y desarrollado por la organización
       Contextos, una ONG que trabaja para el desarrollo de la infancia por medio de la literacidad. Al cabo de este,
       tuve la oportunidad de producir un registro audiovisual que reflejara los alcances en beneficio de la infancia
@@ -34,9 +34,9 @@ import Title from "@/components/Title.vue";
       organización, así como los lineamientos de comunicación sobre infancia.
     </p>
 
-    <img alt="Foto 1" class="col-span-3 my-auto" src="@/assets/img/milhistorias/phone1.png" width="100%"/>
+    <img alt="Foto 1" class="col-span-4 md:col-span-3 col-start-3 mt-6 md:my-auto" src="@/assets/img/milhistorias/phone1.png" width="100%"/>
 
-    <video autoplay loop controls muted class="col-span-5 col-end-8 my-20" width="100%">
+    <video autoplay loop controls muted class="col-span-6 md:col-span-5 col-start-2 md:col-end-8 my-8 md:my-20" width="100%">
       <source src="../assets/videos/video-milhistorias.mp4" type="video/mp4" />
       Parece ser que hay problemas con el navegador
     </video>

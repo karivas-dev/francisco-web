@@ -5,7 +5,7 @@ import Footer from "@/components/Footer.vue";
 </script>
 
 <template>
-  <div class="bg-white">
+  <div class="bg-white pt-[67px]">
     <img alt="Banner Web GPB" class="max-w-1920 mx-auto" src="@/assets/img/webgpb/banner.png" width="100%">
   </div>
 

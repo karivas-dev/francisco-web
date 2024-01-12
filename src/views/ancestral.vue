@@ -4,7 +4,7 @@ import Footer from "@/components/Footer.vue";
 </script>
 
 <template>
-  <img alt="Banner Ancestral" class="max-w-1920 mx-auto" src="../assets/img/ancestral/banner-ancestral.png"
+  <img alt="Banner Ancestral" class="max-w-1920 mx-auto pt-[67px]" src="../assets/img/ancestral/banner-ancestral.png"
        width="100%"/>
 
   <OpeningTitle>
@@ -17,13 +17,13 @@ import Footer from "@/components/Footer.vue";
   </OpeningTitle>
 
   <div class="max-w-1920 mx-auto">
-    <div class="grid grid-cols-2 mx-32 gap-x-12">
-      <p class="my-auto">La Organización de las Naciones Unidas para la Alimentación y la Agricultura desarrolló un
+    <div class="grid grid-cols-2 mx-5 md:mx-32 gap-x-12">
+      <p class="my-auto col-span-2 md:col-span-1">La Organización de las Naciones Unidas para la Alimentación y la Agricultura desarrolló un
         proyecto enfocado en la promulgación de la herencia indígena y afrodescendiente de los platillos del territorio
         salvadoreño, a través de un Recetario ancestral, con alimentos nutritivos y de fácil preparación. Para este
         proyecto se trabajó de manera colaborativa, y tuve la oportunidad de ejecutar la dirección fotográfica, así como
         el food styling de dichos platos.</p>
-      <img alt="Foto" class="w-full mb-16" src="../assets/img/ancestral/foto06.png"/>
+      <img alt="Foto" class="w-full mb-16 mt-10 md:mt-0 col-span-2 md:col-span-1" src="../assets/img/ancestral/foto06.png"/>
     </div>
 
     <div class="grid grid-cols-8 gap-2 mx-8 mb-24">
@@ -38,8 +38,8 @@ import Footer from "@/components/Footer.vue";
       </div>
     </div>
 
-    <div class="grid grid-cols-8 mx-8 gap-x-2">
-      <img alt="Foto" class="col-span-4 col-start-3" src="@/assets/img/ancestral/subtitulo.png" width="100%"/>
+    <div class="grid grid-cols-8 mx-0 md:mx-8 gap-x-2">
+      <img alt="Foto" class="col-span-6 md:col-span-4 col-start-2 md:col-start-3" src="@/assets/img/ancestral/subtitulo.png" width="100%"/>
       <p class="col-start-2 col-span-6 mt-8 mb-12">
         El registro fotográfico nos llevó a realizar trabajo de campo como parte del proceso. Las recetas son resultado
         de la investigación y registro desarrollado por el chef Cipactli para FAO El Salvador. Trabajar de manera
