@@ -28,14 +28,15 @@ watch(showMenu, () => {
 
       <div class="text-xl font-extraLight text-white text-center font-agrandir font-expanded">
         <span v-if="routeName == 'home'">Inicio</span>
+        <span v-else-if="routeName == 'counter'">Cuenta regresiva</span>
         <span v-else>Proyectos</span><span class="text-[#f7bf33]">//
-          <span v-if="routeName != 'home'">
+          <span v-if="routeName != 'home' && routeName != 'counter'">
             {{ routeName }}
           </span>
         </span>
       </div>
 
-      <img alt="dots" class="h-1.5 md:h-2"  src="../assets/img/dots.svg" width="45" @click="showMenu = !showMenu"/>
+      <img alt="dots" class="h-1.5 md:h-2" src="../assets/img/dots.svg" width="45" @click="showMenu = !showMenu"/>
     </div>
   </nav>
 
@@ -45,12 +46,25 @@ watch(showMenu, () => {
        }"
        class="fixed left-0 w-full h-[calc(100vh_-_67px)] bg-[#333] opacity-[0.97] z-20 flex justify-center items-center
         ease-out transition-all duration-500">
-    <div class="text-white">
-      A
-      <br>
-      B
-      <br>
-      C
+    <div class="text-white font-scp flex flex-col">
+      <router-link to="/#inicio">
+        Inicio
+      </router-link>
+      <router-link to="/#sobre-mi">
+        Sobre mi
+      </router-link>
+      <router-link to="/#proyectos">
+        Proyectos
+      </router-link>
+      <router-link to="/#reel">
+        Reel
+      </router-link>
+      <router-link to="/#porta">
+        Porta
+      </router-link>
+      <router-link to="/#contacto">
+        Contáctame
+      </router-link>
     </div>
   </div>
 </template>

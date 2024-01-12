@@ -4,7 +4,7 @@ import Button from "@/components/Button.vue";
 </script>
 
 <template>
-  <div class="mx-8 md:mx-28">
+  <div id="/#proyectos" class="mx-8 md:mx-28">
     <div class="grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-5 mt-16 md:mt-20">
       <Button>Mi trabajo</Button>
       <Button>Reel 2024</Button>

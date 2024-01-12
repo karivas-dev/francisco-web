@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="bg-[#323332] px-8 py-12 text-center font-agrandir font-extraexpanded font-extralight text-white">
+  <div id="/contacto" class="bg-[#323332] px-8 py-12 text-center font-agrandir font-extraexpanded font-extralight text-white">
     <p class="font-black font-extraexpanded text-2xl">¡Dale, contáctame y hagamos equipo!</p>
 
     <p class="font-scp border border-[#fbb91c] py-3 px-16 w-fit mx-auto rounded-full my-4">

@@ -3,7 +3,7 @@ import Button from "@/components/Button.vue";
 </script>
 
 <template>
-  <div class="px-12 my-20 grid grid-cols-8 place-content-center relative">
+  <div id="sobre-mi" class="px-12 my-20 grid grid-cols-8 place-content-center relative">
     <div class="absolute top-1/2 left-1/2 -z-10">
       <img alt="" width="" class="animate-random-circle" src="../assets/img/homepage/gradientecirc.svg">
     </div>

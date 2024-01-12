@@ -15,7 +15,7 @@ const timeRemaining = computed(() => {
     router.push({name: 'home'});
   }
 
-  return `${Math.floor(duration.days)} days, ${duration.hours} hours, ${duration.minutes} minutes, ${Math.floor(duration.seconds)} seconds`;
+  return `${Math.floor(duration.days)} días, ${duration.hours} horas, ${duration.minutes} minutos, ${Math.floor(duration.seconds)} seconds`;
 });
 
 onMounted(() => {
@@ -30,5 +30,8 @@ onBeforeMount(() => {
 </script>
 
 <template>
-  {{ timeRemaining }}
+  <div class="max-w-1920 h-[calc(100vh-69px)] mx-auto flex items-center justify-center text-center
+  bg-gradient-to-tr from-[#333333] from-5% to-[#f7bf33] font-agrandir font-black font-ultraexpanded text-2xl text-slate-300">
+    {{ timeRemaining }}
+  </div>
 </template>
