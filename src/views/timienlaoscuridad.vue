@@ -5,7 +5,7 @@ import Footer from "@/components/Footer.vue";
 </script>
 
 <template>
-  <img alt="Timi banner" class="pt-[67px] mb-12 md:mb-24" src="../assets/img/timienlaoscuridad/banner-timi.png" width="100%"/>
+  <img alt="Timi banner" class="mb-12 md:mb-24" src="../assets/img/timienlaoscuridad/banner-timi.png" width="100%"/>
 
   <OpeningTitle>
     <template #title>

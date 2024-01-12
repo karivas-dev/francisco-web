@@ -4,7 +4,7 @@ import Footer from "@/components/Footer.vue";
 </script>
 
 <template>
-  <div class="max-w-1920 pt-[67px] mx-auto">
+  <div class="max-w-1920 mx-auto">
     <video autoplay loop muted width="100%">
       <source src="@/assets/videos/mestizo.mp4" type="video/mp4"/>
       Parece ser que hay problemas con el navegador

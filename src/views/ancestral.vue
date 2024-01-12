@@ -4,7 +4,7 @@ import Footer from "@/components/Footer.vue";
 </script>
 
 <template>
-  <img alt="Banner Ancestral" class="max-w-1920 mx-auto pt-[67px]" src="../assets/img/ancestral/banner-ancestral.png"
+  <img alt="Banner Ancestral" class="max-w-1920 mx-auto" src="../assets/img/ancestral/banner-ancestral.png"
        width="100%"/>
 
   <OpeningTitle>

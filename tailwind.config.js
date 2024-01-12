@@ -14,6 +14,9 @@ export default {
             maxWidth: {
                 '1920': '1920px',
             },
+            backgroundImage: {
+                'tag': "url('@/assets/img/homepage/subrayado.png')"
+            },
             keyframes: {
                 wave: {
                     '0%': {transform: 'rotate(0.0deg)'},

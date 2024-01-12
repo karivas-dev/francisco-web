@@ -5,7 +5,7 @@ import Footer from "@/components/Footer.vue";
 </script>
 
 <template>
-  <div class="bg-[#262626] pt-[67px]">
+  <div class="bg-[#262626]">
     <div class="max-w-1920 mx-auto">
       <video autoplay controls loop muted width="100%">
         <source src="@/assets/videos/tuladob-cortinas.mp4" type="video/mp4"/>

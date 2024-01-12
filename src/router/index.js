@@ -14,6 +14,7 @@ import entrega from "@/views/entrega.vue";
 import milhistorias from "@/views/milhistorias.vue";
 import {DateTime} from "luxon";
 import {inject} from "vue";
+import projects from "@/components/Projects.vue";
 
 const routes = [
     { path: '/', name: 'home', component: home},

@@ -6,7 +6,7 @@ import Title from "@/components/Title.vue";
 
 <template>
 
-  <video autoplay loop muted width="100%" class="pt-[67px]">
+  <video autoplay loop muted width="100%">
     <source src="../assets/videos/banner-milhistorias.mp4" type="video/mp4"/>
     Parece ser que hay problemas con el navegador
   </video>

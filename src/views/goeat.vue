@@ -4,7 +4,7 @@ import Footer from "@/components/Footer.vue";
 </script>
 
 <template>
-  <img alt="Banner Go eat" class="max-w-1920 mx-auto pt-[67px]" src="../assets/img/goeat/banner-goeat.png" width="100%"/>
+  <img alt="Banner Go eat" class="max-w-1920 mx-auto" src="../assets/img/goeat/banner-goeat.png" width="100%"/>
 
   <OpeningTitle>
     <template #title>
