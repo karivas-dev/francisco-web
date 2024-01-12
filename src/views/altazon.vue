@@ -4,7 +4,7 @@ import Footer from "@/components/Footer.vue";
 </script>
 
 <template>
-  <div class="h-[calc(100vh-68px)] bg-[#f2f3f9] flex items-center mb-8">
+  <div class="h-[calc(100vh-68px)] bg-[#f2f3f9] pt-[67px] flex items-center mb-8">
     <video autoplay loop muted width="100%">
       <source src="@/assets/videos/al-tazon.mp4" type="video/mp4"/>
       Parece ser que hay problemas con el navegador
@@ -21,7 +21,7 @@ import Footer from "@/components/Footer.vue";
   </OpeningTitle>
 
   <div class="max-w-1920 mx-auto">
-    <p class="mx-20">Para este proyecto se racionalizó el origen de la comida asiática en nuestro país y región, tomando
+    <p class="mx-6 md:mx-20">Para este proyecto se racionalizó el origen de la comida asiática en nuestro país y región, tomando
       a consideración la forma en como siendo una región de paso se tropicalizan nuevas costumbres, tradiciones,
       lenguaje y comida. Esa mezcla da origen al naming de marca.
       <br><br>
@@ -30,7 +30,7 @@ import Footer from "@/components/Footer.vue";
       comida asiática.
     </p>
 
-    <div class="grid grid-cols-6 m-20 gap-10 items-center ">
+    <div class="grid grid-cols-6 m-6 my-12 md:m-20 gap-4 md:gap-10 items-center ">
       <img alt="Logo variación" class="ml-auto" src="@/assets/img/altazon/logo-full.png" width="100%"/>
       <img alt="Logo variación" class="col-span-2" src="@/assets/img/altazon/letters-altazon.png" width="100%"/>
       <img alt="Logo variación" class="col-span-2" src="@/assets/img/altazon/logo.png" width="100%"/>
@@ -48,7 +48,7 @@ import Footer from "@/components/Footer.vue";
       </div>
     </div>
 
-    <div class="grid grid-cols-2 gap-5 max-w-1920 mx-auto">
+    <div class="grid grid-cols-2 gap-2 md:gap-5 max-w-1920 mx-auto">
       <img alt="Bolsa de Al Tazón" src="@/assets/img/altazon/bag-altazon.png" width="100%"/>
       <img alt="Delantal" src="@/assets/img/altazon/apron.png" width="100%"/>
     </div>
@@ -62,26 +62,26 @@ import Footer from "@/components/Footer.vue";
     <div class="col-span-6 col-start-2 mt-20 mb-4 font-agrandir italic font-black font-expanded text-3xl">
       Relevancia de la cocina China-salvadoreña
     </div>
-    <p class="col-start-2 col-span-3 row-span-1">El chef Jorge Cipactli se refiere a la cocina china en El Salvador como
+    <p class="col-start-2 md:col-start-2 col-span-6 md:col-span-3 row-span-1">El chef Jorge Cipactli se refiere a la cocina china en El Salvador como
       una mezcla o tropicalización de la misma. Y
       expresa que el primer restaurante de cocina china en nuestro país nace en 1961.
     </p>
 
-    <p class="col-start-2 col-span-2 row-span-2">
+    <p class="col-start-2 col-span-6 md:col-start-2 md:col-span-2 row-span-2">
       Por otro lado el libro “Patrimonio
       cultural marítimo de El Salvador de registro de pecios marinos” del antropólogo Roberto Orellana registra las
       visitas de barco de viaje de la PMSC (Pacific Mail Steamship Company) en este habla de los primeros chinos
       visitando
       suelo salvadoreño a través de este barco de vapor.
     </p>
-    <img alt="Ilustración de arroz" class="col-span-4" src="@/assets/img/altazon/arroz.png" width="100%"/>
+    <img alt="Ilustración de arroz" class="col-end-8 col-span-4 " src="@/assets/img/altazon/arroz.png" width="100%"/>
   </div>
 
   <div class="bg-white">
     <img alt="Proceso" class="max-w-1920 mx-auto" src="@/assets/img/altazon/process.png" width="100%"/>
   </div>
 
-  <div class="py-12 text-center">
+  <div class="mx-2 py-12 text-center">
     <p class="font-bold">Créditos<span class="text-[#fbb91c]">//</span></p>
     <p>Fotografía_Otoniel López</p>
     <p>Diseño de marca e Ilustración_<span class="font-semibold">Francisco Rivas</span></p>

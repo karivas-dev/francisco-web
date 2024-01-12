@@ -1,12 +1,16 @@
 <script setup>
-
 import Button from "@/components/Button.vue";
 </script>
 
 <template>
   <div class="relative">
-    <video autoplay loop muted width="100%">
+    <video autoplay loop muted width="100%" class="hidden md:block">
       <source src="@/assets/videos/main-gradient.mp4" type="video/mp4"/>
+      Your browser does not support the video tag
+    </video>
+
+    <video autoplay loop muted width="100%" class="block md:hidden">
+      <source src="@/assets/videos/gradient-phone.mp4" type="video/mp4"/>
       Your browser does not support the video tag
     </video>
 
