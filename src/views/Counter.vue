@@ -30,8 +30,14 @@ onBeforeMount(() => {
 </script>
 
 <template>
-  <div class="max-w-1920 h-[calc(100vh-69px)] mx-auto flex items-center justify-center text-center
-  bg-gradient-to-tr from-[#333333] from-5% to-[#f7bf33] font-agrandir font-black font-ultraexpanded text-2xl text-slate-300">
-    {{ timeRemaining }}
+  <div class="max-w-1920 h-[calc(100vh-69px)] mx-auto text-center grid md:grid-cols-3 px-8 md:px-20
+   font-agrandir font-black font-ultraexpanded text-xl md:text-2xl">
+    <img src="@/assets/img/homepage/greeting-fran.png" class="row-start-1 col-span-2 md:w-2/3 mx-auto my-20 md:mt-auto mb-8 md:mb-20" alt="">
+
+    <img src="@/assets/img/homepage/fran-foto.png" class="col-span-2 mx-auto md:col-span-1 md:mr-auto w-2/3 my-auto row-span-2" alt="">
+    <p class="row-start-2 col-span-2 mb-10">
+      Nos vemos en
+    <span class="text-[#f7bf33] block">{{ timeRemaining }}</span>
+    </p>
   </div>
 </template>
