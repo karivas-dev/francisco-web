@@ -58,7 +58,7 @@ import Footer from "@/components/Footer.vue";
       <swiper-container autoplay-delay="2500" autoplay-disable-on-interaction="false" css-mode="true" loop="true" navigation="true"
                         pagination="true" slides-per-view="4" space-between="15" speed="500">
         <swiper-slide v-for="n in 36">
-          <img :src="`../public/img/36daysoftype/${n}.png`" alt="Banner 1" />
+          <img :src="`/img/36daysoftype/${n}.png`" alt="Banner 1" />
         </swiper-slide>
       </swiper-container>
     </div>

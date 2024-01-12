@@ -3,8 +3,10 @@
 
 <template>
   <div class="flex justify-center my-20">
-    <iframe src="/public/portafolio.pdf"
-            width="1050" height="700">
-    </iframe>
+
+    <object data='/portafolio.pdf'    width="800"
+            height="500">
+      <p><a href="/portafolio.pdf">Descargar portafolio</a></p>
+    </object>
   </div>
 </template>
