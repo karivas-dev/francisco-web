@@ -1,6 +1,6 @@
 import {createRouter, createWebHistory} from "vue-router";
 import home from "@/views/landing.vue";
-import counter from "@/views/counter.vue";
+import counter from "@/views/Counter.vue";
 import daysoftype from "@/views/daysoftype.vue";
 import timi from "@/views/timienlaoscuridad.vue";
 import ancestral from "@/views/ancestral.vue";
