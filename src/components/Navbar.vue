@@ -20,9 +20,8 @@ watch(showMenu, () => {
 
 <template>
   <nav class="fixed w-full bg-[#333] z-30 py-4 px-5 md:px-8">
-    <div class="mx-auto flex items-center justify-between max-w-[1920]">
-
-      <router-link :to="{ name: 'home' }">
+    <div class="mx-auto flex items-center justify-between max-w-[192]">
+      <router-link :to="{ name: 'home' }" @click="showMenu = false">
         <img alt="r logo" class="" height="30" src="../assets/img/r.svg" width="30"/>
       </router-link>
 
@@ -47,24 +46,24 @@ watch(showMenu, () => {
        class="fixed left-0 w-full h-[calc(100vh_-_67px)] bg-[#333] opacity-[0.97] z-20 flex justify-center items-center
         ease-out transition-all duration-500">
     <div class="text-white font-scp flex flex-col">
-      <router-link to="/#inicio">
+      <a href="#inicio" @click="showMenu = !showMenu">
         Inicio
-      </router-link>
-      <router-link to="/#sobre-mi">
+      </a>
+      <a href="#sobre-mi" @click="showMenu = !showMenu">
         Sobre mi
-      </router-link>
-      <router-link to="/#proyectos">
+      </a>
+      <a href="#proyectos" @click="showMenu = !showMenu">
         Proyectos
-      </router-link>
-      <router-link to="/#reel">
+      </a>
+      <a href="#reel" @click="showMenu = !showMenu">
         Reel
-      </router-link>
-      <router-link to="/#porta">
+      </a>
+      <a href="#porta" @click="showMenu = !showMenu">
         Porta
-      </router-link>
-      <router-link to="/#contacto">
+      </a>
+      <a href="#contacto" @click="showMenu = !showMenu">
         Contáctame
-      </router-link>
+      </a>
     </div>
   </div>
 </template>

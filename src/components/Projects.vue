@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div class="mx-8 md:mx-28">
+  <div class="mx-8 md:mx-28 scroll-mt-28">
     <div class="grid grid-cols-6 mt-16">
       <p class="col-span-6 md:col-span-4">
         Mi trabajo es un esfuerzo de una constante por el diseño, un reflejo de la apertura por encontrar la receta
