@@ -41,7 +41,7 @@ watch(showMenu, () => {
 
   <div :class="{
           '-top-full': !showMenu,
-          'top-[67px] animate-[bounce2_0.75s_0.5s_2]': showMenu
+          'top-[67px] animate-[bounce2_0.55s_0.35s_1]': showMenu
        }"
        class="fixed left-0 w-full h-[calc(100vh_-_67px)] bg-[#333] opacity-[0.97] z-20 flex justify-center items-center
         ease-out transition-all duration-500">
