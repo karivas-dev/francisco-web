@@ -1,7 +1,8 @@
 <script setup>
 import Button from "@/components/Button.vue";
+import {useProjectsStore} from "@/stores/ProjectsStore";
 
-const option = defineModel();
+const projectsStore = useProjectsStore();
 
 function scrollTo() {
   this.$refs.targetRef.scrollIntoView({ behavior: 'smooth' });
@@ -24,7 +25,7 @@ function scrollTo() {
     font-extrabold font-extraexpanded text-center space-y-10 text-[#323231] z-10">
       <p class="text-2xl md:text-5xl">La inspiración está en la oportunidad de darnos variedad para crear y aprender</p>
       <Button>
-        <a href="#proyectos" @click="option = 'projects'">
+        <a href="#proyectos" @click="projectsStore.currentProject = projectsStore.projects.projects">
           Mi trabajo
         </a>
       </Button>

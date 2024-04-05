@@ -1,12 +1,15 @@
 <script setup>
 import {computed, nextTick, ref, watch} from "vue";
 import {useRoute} from "vue-router";
+import {useProjectsStore} from "@/stores/ProjectsStore";
 
 const route = useRoute();
 const routeName = computed(() => route.name);
 
 const showMenu = ref(false);
 const animation = ref(false);
+
+const projectsStore = useProjectsStore();
 
 watch(showMenu, () => {
   if (!showMenu.value) return;
@@ -21,7 +24,7 @@ watch(showMenu, () => {
 <template>
   <nav class="fixed w-full bg-[#333] z-30 py-4 px-5 md:px-8">
     <div class="mx-auto flex items-center justify-between max-w-[192]">
-      <router-link :to="{ name: 'home' }" @click="showMenu = false">
+      <router-link :to="{ name: 'home' }" @click="() => {showMenu = false; projectsStore.currentProject = projectsStore.projects.projects;}">
         <img alt="r logo" class="" height="30" src="../assets/img/r.svg" width="30"/>
       </router-link>
 
@@ -46,21 +49,24 @@ watch(showMenu, () => {
        class="fixed left-0 w-full h-[calc(100vh_-_67px)] bg-[#333] opacity-[0.97] z-20 flex justify-center items-center
         ease-out transition-all duration-500">
     <div class="text-white font-scp flex flex-col">
-      <a href="#inicio" @click="showMenu = !showMenu">
+      <a href="#inicio" @click="() => {showMenu = !showMenu; projectsStore.currentProject = projectsStore.projects.projects}">
         Inicio
       </a>
       <a href="#sobre-mi" @click="showMenu = !showMenu">
         Sobre mi
       </a>
-      <a href="#proyectos" @click="showMenu = !showMenu">
+      <router-link :to="{name: 'home', hash: '#proyectos'}"
+                   @click="() => {showMenu = !showMenu; projectsStore.currentProject = projectsStore.projects.projects}">
         Proyectos
-      </a>
-      <a href="#reel" @click="showMenu = !showMenu">
+      </router-link>
+      <router-link :to="{name: 'home', hash: '#proyectos'}"
+                   @click="() => {showMenu = !showMenu; projectsStore.currentProject = projectsStore.projects.reel}">
         Reel
-      </a>
-      <a href="#porta" @click="showMenu = !showMenu">
+      </router-link>
+      <router-link :to="{name: 'home', hash: '#proyectos'}"
+                   @click="() => {showMenu = !showMenu; projectsStore.currentProject = projectsStore.projects.portafolio}">
         Porta
-      </a>
+      </router-link>
       <a href="#contacto" @click="showMenu = !showMenu">
         Contáctame
       </a>
