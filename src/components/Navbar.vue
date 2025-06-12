@@ -49,12 +49,12 @@ watch(showMenu, () => {
        class="fixed left-0 w-full h-[calc(100vh_-_67px)] bg-[#333] opacity-[0.97] z-20 flex justify-center items-center
         ease-out transition-all duration-500">
     <div class="text-white font-scp flex flex-col">
-      <a href="#inicio" @click="() => {showMenu = !showMenu; projectsStore.currentProject = projectsStore.projects.projects}">
+      <router-link :to="{path: '/', hash:'#inicio'}" @click="() => {showMenu = !showMenu; projectsStore.currentProject = projectsStore.projects.projects}">
         Inicio
-      </a>
-      <a href="#sobre-mi" @click="showMenu = !showMenu">
+      </router-link>
+      <router-link :to="{path: '/', hash:'#sobre-mi'}" @click="showMenu = !showMenu">
         Sobre mi
-      </a>
+      </router-link>
       <router-link :to="{name: 'home', hash: '#proyectos'}"
                    @click="() => {showMenu = !showMenu; projectsStore.currentProject = projectsStore.projects.projects}">
         Proyectos

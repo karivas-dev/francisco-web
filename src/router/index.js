@@ -1,4 +1,4 @@
-import {createRouter, createWebHistory} from "vue-router";
+import {createRouter, createWebHashHistory, createWebHistory} from "vue-router";
 import home from "@/views/landing.vue";
 import counter from "@/views/Counter.vue";
 import daysoftype from "@/views/daysoftype.vue";
@@ -33,7 +33,7 @@ const routes = [
 ]
 
 const router = createRouter( {
-    history: createWebHistory(),
+    history: createWebHashHistory(),
     routes: routes,
     scrollBehavior(to, from,savedPosition) {
         if (to.hash) {

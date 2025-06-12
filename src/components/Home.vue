@@ -25,9 +25,9 @@ function scrollTo() {
     font-extrabold font-extraexpanded text-center space-y-10 text-[#323231] z-10">
       <p class="text-2xl md:text-5xl">La inspiración está en la oportunidad de darnos variedad para crear y aprender</p>
       <Button>
-        <a href="#proyectos" @click="projectsStore.currentProject = projectsStore.projects.projects">
+        <router-link :to="{path: '/', hash: '#proyectos'}" @click="projectsStore.currentProject = projectsStore.projects.projects">
           Mi trabajo
-        </a>
+        </router-link>
       </Button>
     </div>
   </div>
